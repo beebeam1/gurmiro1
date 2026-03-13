@@ -11,8 +11,8 @@ body {
 
 .mobile-mockup {
     position: relative;
-    width: 375px;  /* 모바일 기본 해상도 너비 */
-    height: 812px; /* 모바일 기본 해상도 높이 */
+    width: 240px;  /* 모바일 기본 해상도 너비 */
+    height: 560px; /* 모바일 기본 해상도 높이 */
     background-color: #fff;
     border-radius: 40px;
     border: 12px solid #333; /* 스마트폰 베젤 느낌 */
@@ -23,7 +23,7 @@ body {
 .screen-bg {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
 }
 
@@ -33,5 +33,5 @@ body {
     cursor: pointer;
     display: block;
     /* 클릭 위치를 눈으로 확인하고 싶다면 아래 주석을 푸세요 */
-    /* background-color: rgba(255, 0, 0, 0.3); */
+    background-color: rgba(255, 0, 0, 0.3);
 }
